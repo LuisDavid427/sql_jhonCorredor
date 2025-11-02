@@ -285,7 +285,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Acceso a `sqlcmd` (Consola Cliente):** Se aceptó la configuración y se accedió a la consola `sqlcmd`.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.054.png)
 
-* **Desbloqueo de Herramienta:** Se salió y se volvió a ejecutar la consola para el paso final de desbloqueo/inicialización.
+* **Desbloqueo de Herramienta:** Se salió y se volvió a ejecutar la consola para el paso final de desbloqueo/inicialización. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90)
 
 ---
@@ -297,10 +297,10 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 1. Instalación y Ejecución del Servicio
 
-* **Descarga de MySQL:** Se ejecutaron los comandos necesarios para la descarga e instalación del servidor MySQL en el sistema operativo Ubuntu.
+* **Descarga de MySQL:** Se ejecutaron los comandos necesarios para la descarga e instalación del servidor MySQL en el sistema operativo Ubuntu. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.063.png)
 
-* **Ejecución del Servicio:** Se inició el servicio de MySQL.
+* **Ejecución del Servicio:** Se inició el servicio de MySQL. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.064.png)
 
 * **Verificación de Estado:** Se comprobó que el servicio de MySQL estuviera corriendo activamente.
