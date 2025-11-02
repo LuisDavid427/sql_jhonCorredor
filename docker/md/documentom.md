@@ -112,14 +112,14 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
   **1000 registros** por tabla.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.009.png)
 
-* **Ejecución del SP:** Ejecución del *Stored Procedure* para poblar las tablas.
+* **Ejecución del SP:** Ejecución del *Stored Procedure* para poblar las tablas. <br>
     ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.010.png)
 
 ---
 
 ### 4. Seguridad y Gestión de Acceso
 
-* **Creación y Asignación de Schemas:** Se crearon los **schemas** (esquemas) necesarios y <br> se asignaron las tablas correspondientes a cada uno.
+* **Creación y Asignación de Schemas:** Se crearon los **schemas** (esquemas) necesarios y <br> se asignaron las tablas correspondientes a cada uno. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.011.png)
 
 * **Creación de Usuarios y Privilegios:** Se definieron los **usuarios** de la base de datos y se les asignaron los
