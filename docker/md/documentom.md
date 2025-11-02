@@ -83,7 +83,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Solución Aplicada:** Se procedió a **configurar el DNS de forma manual** en el entorno, <br> resolviendo el problema de conectividad del servicio Docker.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.002.png)
 
-* **Resultado:** **Pull exitoso** de la imagen.
+* **Resultado:** **Pull exitoso** de la imagen. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.003.png)
 
 ---
