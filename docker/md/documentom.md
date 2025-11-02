@@ -77,11 +77,11 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 ### 1. Diagnóstico y Solución de Conectividad (Pull de Imagen)
 
 * **Problema Inicial (Fallo en Pull):** El sistema inicialmente no permitía realizar la operación `docker pull` de
-* la imagen de MySQL, a pesar de tener una conexión de red funcional.
+  la imagen de MySQL, a pesar de tener una conexión de red funcional.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.001.png)
 
 * **Solución Aplicada:** Se procedió a **configurar el DNS de forma manual** en el entorno, resolviendo el problema
-* de conectividad del servicio Docker.
+  de conectividad del servicio Docker.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.002.png)
 
 * **Resultado:** **Pull exitoso** de la imagen.
@@ -109,7 +109,8 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![Imagen que contiene Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.008.png)
     *Verificación de que todas las tablas se hayan creado correctamente.*
 
-* **Creación del Stored Procedure (SP):** Se definió un *Stored Procedure* para la inserción masiva de **1000 registros** por tabla.
+* **Creación del Stored Procedure (SP):** Se definió un *Stored Procedure* para la inserción masiva de
+  **1000 registros** por tabla.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.009.png)
 
 * **Ejecución del SP:** Ejecución del *Stored Procedure* para poblar las tablas.
@@ -119,10 +120,12 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 4. Seguridad y Gestión de Acceso
 
-* **Creación y Asignación de Schemas:** Se crearon los **schemas** (esquemas) necesarios y se asignaron las tablas correspondientes a cada uno.
+* **Creación y Asignación de Schemas:** Se crearon los **schemas** (esquemas) necesarios y se asignaron las tablas
+  correspondientes a cada uno.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.011.png)
 
-* **Creación de Usuarios y Privilegios:** Se definieron los **usuarios** de la base de datos y se les asignaron los **privilegios** (permisos) necesarios para su operación.
+* **Creación de Usuarios y Privilegios:** Se definieron los **usuarios** de la base de datos y se les asignaron los
+  **privilegios** (permisos) necesarios para su operación.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.012.png)
 
 ## WINDOWS SQLSERVER - Despliegue y Configuración
@@ -137,7 +140,8 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Acceso al Contenedor:** Ingreso inicial al *shell* del contenedor para la configuración interna.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.014.png)
 
-* **Instalación de Dependencias:** Se salió del contenedor para comenzar la instalación de las dependencias y herramientas necesarias para SQL Server y la consola `sqlcmd` (utilizando múltiples comandos de instalación y configuración).
+* **Instalación de Dependencias:** Se salió del contenedor para comenzar la instalación de las dependencias y herramientas
+   necesarias para SQL Server y la consola `sqlcmd` (utilizando múltiples comandos de instalación y configuración).
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.015.png)
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.016.png)
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.017.png)
@@ -145,14 +149,16 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.019.png)
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.020.png)
 
-* **Ejecución y Acceso:** Tras completar las instalaciones, se ejecuta SQL Server de forma interactiva y se logra acceder a la utilidad `sqlcmd` usando la ruta correcta.
+* **Ejecución y Acceso:** Tras completar las instalaciones, se ejecuta SQL Server de forma interactiva y se logra acceder
+  a la utilidad `sqlcmd` usando la ruta correcta.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.021.png)
 
 ---
 
 ### 2. Creación y Población de la Base de Datos
 
-* **Ingreso del Código DDL/DML:** Se procede a ingresar todo el código necesario para la creación de la estructura de la base de datos (tablas, índices, etc.).
+* **Ingreso del Código DDL/DML:** Se procede a ingresar todo el código necesario para la creación de la estructura de la
+  base de datos (tablas, índices, etc.).
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.022.png)
 
 * **Procedure de Inserción Masiva:** Creación del *Stored Procedure* encargado de generar e insertar **1000 registros** por tabla.
