@@ -122,8 +122,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Creación y Asignación de Schemas:** Se crearon los **schemas** (esquemas) necesarios y <br> se asignaron las tablas correspondientes a cada uno. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.011.png)
 
-* **Creación de Usuarios y Privilegios:** Se definieron los **usuarios** de la base de datos y se les asignaron los
-  **privilegios** (permisos) necesarios para su operación.
+* **Creación de Usuarios y Privilegios:** Se definieron los **usuarios** de la base de datos y se les asignaron los **privilegios** (permisos) necesarios para su operación. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.012.png)
 
 ## WINDOWS SQLSERVER - Despliegue y Configuración
@@ -147,16 +146,14 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.019.png)
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.020.png)
 
-* **Ejecución y Acceso:** Tras completar las instalaciones, se ejecuta SQL Server de forma interactiva y se logra acceder
-  a la utilidad `sqlcmd` usando la ruta correcta.
+* **Ejecución y Acceso:** Tras completar las instalaciones, se ejecuta SQL Server de forma interactiva y se logra acceder a la utilidad `sqlcmd` usando la ruta correcta. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.021.png)
 
 ---
 
 ### 2. Creación y Población de la Base de Datos
 
-* **Ingreso del Código DDL/DML:** Se procede a ingresar todo el código necesario para la creación de la estructura de la
-  base de datos (tablas, índices, etc.).
+* **Ingreso del Código DDL/DML:** Se procede a ingresar todo el código necesario para la creación de la estructura de la base de datos (tablas, índices, etc.). <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.022.png)
 
 * **Procedure de Inserción Masiva:** Creación del *Stored Procedure* encargado de generar e insertar **1000 registros** por tabla.
@@ -166,7 +163,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 3. Seguridad y Gestión de Acceso
 
-* **Creación de Schemas, Logins y Usuarios:** Se establecen los **Schemas**, se crean los **Logins** de acceso al servidor y se asignan los **Usuarios** a la base de datos con los permisos adecuados.
+* **Creación de Schemas, Logins y Usuarios:** Se establecen los **Schemas**, se crean los **Logins** de acceso al servidor y se asignan los **Usuarios** a la base de datos con los permisos adecuados. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.024.png)
     ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.025.png)
 
@@ -189,7 +186,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Creación de Tablas:** Se procedió a definir y crear todas las tablas de la base de datos en PostgreSQL.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.028.png)
 
-* **Creación de la Función de Inserción:** Se creó una **función** (equivalente a un *Stored Procedure* en otros SGBD) para la inserción masiva de datos (1000 registros).
+* **Creación de la Función de Inserción:** Se creó una **función** (equivalente a un *Stored Procedure* en otros SGBD) para la inserción masiva de datos (1000 registros). <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.029.png)
 
 * **Ejecución y Verificación:** La función fue invocada (llamada) y se verificó que la inserción de datos se haya realizado correctamente.
@@ -199,14 +196,13 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 3. Seguridad y Gestión de Acceso
 
-* **Creación de Schemas y Asignación de Tablas:** Se crearon los **schemas** lógicos y se asignaron las tablas previamente creadas a estos nuevos esquemas.
+* **Creación de Schemas y Asignación de Tablas:** Se crearon los **schemas** lógicos y se asignaron las tablas previamente creadas a estos nuevos esquemas. <br>
     ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.031.png)
 
-* **Creación de Usuarios y Permisos:** Se definieron los usuarios necesarios y se les otorgaron los **respectivos permisos** (privilegios) para interactuar con los schemas y las tablas.
+* **Creación de Usuarios y Permisos:** Se definieron los usuarios necesarios y se les otorgaron los **respectivos permisos** (privilegios) para interactuar con los schemas y las tablas. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.032.png)
 
-* **Validación Adicional de Entorno:**
-    ![ref1]
+* **Validación Adicional de Entorno:** <br>
     ![Captura de pantalla de un celular](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.034.png)
 
 ## WINDOWS MONGO - Despliegue y Configuración NoSQL
@@ -222,25 +218,27 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Bucle de Inserción Masiva:** Implementación de un bucle de inserción para añadir **1000 documentos** por colección.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.037.png)
 
-* **Verificación de Inserción:** Comprobación del número de documentos creados para confirmar la inserción masiva.
+* **Verificación de Inserción:** Comprobación del número de documentos creados para confirmar la inserción masiva. <br>
     ![Interfaz de usuario gráfica, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.038.png)
 
 ---
 
 ### 2. Seguridad y Gestión de Acceso
 
-* **Creación de "Schemas" (Roles/Permisos Lógicos):** Creación de estructuras lógicas de gestión (similares a *schemas* en bases de datos relacionales) para organizar la base de datos NoSQL.
+* **Creación de "Schemas" (Roles/Permisos Lógicos):** Creación de estructuras lógicas de gestión (similares a *schemas* en bases de datos relacionales) para organizar la base de datos NoSQL. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.039.png)
 
 * **Asignación de Colecciones:** Las colecciones creadas se transfirieron o asociaron a estas nuevas estructuras lógicas.
     ![Imagen que contiene Patrón de fondo](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.040.png)
 
-* **Creación de Usuarios:** Creación de usuarios de la base de datos con roles definidos.
+* **Creación de Usuarios:** Creación de usuarios de la base de datos con roles definidos. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.041.png)
 
 * **Comprobación de Usuarios:** Verificación final de la creación y configuración correcta de los usuarios.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.042.png)
     ![Imagen que contiene Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.043.png)
+
+---
 
 ## UBUNTU OS - Despliegue de Entornos
 
@@ -259,10 +257,10 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 2. Instalación y Configuración del Servidor SQL
 
-* **Instalación de Dependencias y Repositorios:** Se instalaron las dependencias necesarias y se configuraron los repositorios de Microsoft para comenzar la descarga de SQL Server.
+* **Instalación de Dependencias y Repositorios:** Se instalaron las dependencias necesarias y se configuraron los repositorios de Microsoft para comenzar la descarga de SQL Server. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.045.png)
 
-* **Instalación de `mssql-server`:** Se instaló el paquete principal de SQL Server.
+* **Instalación de `mssql-server`:** Se instaló el paquete principal de SQL Server. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.046.png)
 
 * **Configuración Inicial:** Se configuró el área geográfica y la zona horaria del sistema.
@@ -289,6 +287,8 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 * **Desbloqueo de Herramienta:** Se salió y se volvió a ejecutar la consola para el paso final de desbloqueo/inicialización.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90)
+
+---
 
 
 ## UBUNTU MYSQL - Instalación Nativa y Configuración
@@ -317,23 +317,25 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.067.png)
 
 * **Creación y Ejecución del Procedure:**
-    * Se definió el **Stored Procedure** para la inserción masiva de **1000 registros**.
+    * Se definió el **Stored Procedure** para la inserción masiva de **1000 registros**. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.068.png)
-    * Se ejecutó el *Procedure* para poblar las tablas.
+    * Se ejecutó el *Procedure* para poblar las tablas. <br>
         ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.069.png)
 
 ---
 
 ### 3. Seguridad y Conectividad
 
-* **Creación de Schemas y Asignación de Tablas:** Se crearon los **schemas** lógicos y se procedió a mover o asignar las tablas a estos nuevos esquemas.
+* **Creación de Schemas y Asignación de Tablas:** Se crearon los **schemas** lógicos y se procedió a mover o asignar las tablas a estos nuevos esquemas. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.070.png)
 
-* **Creación de Usuarios y Permisos:** Se definieron los usuarios y se les otorgaron los **privilegios** necesarios para interactuar con la base de datos.
+* **Creación de Usuarios y Permisos:** Se definieron los usuarios y se les otorgaron los **privilegios** necesarios para interactuar con la base de datos. <br>
     ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.071.png)
 
-* **Prueba de Conexión:** Se verificó la conectividad con la base de datos recién configurada.
+* **Prueba de Conexión:** Se verificó la conectividad con la base de datos recién configurada. <br>
     ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.072.png)
+
+---
 
 ## OS UBUNTU MONGO - Instalación Nativa y Configuración NoSQL
 
@@ -364,22 +366,24 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.078.png)
 
 * **Verificación de Inserciones:** Se realizaron múltiples comprobaciones del número de documentos insertados en cada colección.
-    ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.080.png)
-    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.081.png)
-    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.082.png)
-    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.083.png)
-    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.084.png)
+    ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.080.png) <br>
+    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.081.png) <br>
+    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.082.png) <br>
+    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.083.png) <br>
+    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.084.png) <br>
 
 ---
 
 ### 3. Seguridad y Gestión de Acceso
 
-* **Creación de Estructuras Lógicas y Asignación:** Se crearon estructuras de gestión (referidas como "schemas" en el contexto de organización) y se asociaron las colecciones.
+* **Creación de Estructuras Lógicas y Asignación:** Se crearon estructuras de gestión (referidas como "schemas" en el contexto de organización) y se asociaron las colecciones. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.079.png)
 
 * **Creación de Usuarios y Permisos:** Se definieron los **usuarios** y se asignaron los **roles/permisos** correspondientes.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.079.png)
     ![Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.085.png)
+
+---
 
 ## OS UBUNTU POSTGRES - Instalación Nativa y Configuración
 
@@ -395,9 +399,9 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.088.png)
 
 * **Inicialización y Acceso:**
-    * Se inicializó el servicio de PostgreSQL.
+    * Se inicializó el servicio de PostgreSQL. <br>
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.089.png)
-    * Se ingresó a la consola `psql` para la gestión de la base de datos.
+    * Se ingresó a la consola `psql` para la gestión de la base de datos. <br>
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.090.png)
 
 ---
@@ -408,20 +412,20 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.091.png)
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.092.png)
 
-* **Función de Inserción Masiva:** Se creó la **función PL/pgSQL** encargada de la inserción de **1000 registros** por tabla.
+* **Función de Inserción Masiva:** Se creó la **función PL/pgSQL** encargada de la inserción de **1000 registros** por tabla. <br>
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.093.png)
 
-* **Ejecución y Verificación:** Se ejecutó la función de inserción y se verificó el recuento de datos.
+* **Ejecución y Verificación:** Se ejecutó la función de inserción y se verificó el recuento de datos. <br>
     ![Interfaz de usuario gráfica, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.094.png)
 
 ---
 
 ### 3. Seguridad, Usuarios y Configuración de Red
 
-* **Creación de Schemas, Usuarios y Permisos:** Se crearon los **schemas**, se definieron los **usuarios** y se asignaron los **privilegios** (permisos) correspondientes para la gestión de acceso.
-    ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.095.png)
-    ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.096.png)
-    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.097.png)
+* **Creación de Schemas, Usuarios y Permisos:** Se crearon los **schemas**, se definieron los **usuarios** y se asignaron los **privilegios** (permisos) correspondientes para la gestión de acceso. <br>
+    ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.095.png) <br>
+    ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.096.png) <br>
+    ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.097.png) <br>
 
 * **Instalación de Utilidades:** Se ejecutaron comandos para actualizar e instalar la herramienta de edición de texto **nano**.
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.098.png)
@@ -434,7 +438,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.099.png)
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.100.png)
 
-
+---
 
 ## DOCKER IN DOCKER (DIND) - Aislamiento Anidado
 
@@ -448,7 +452,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Instalación de Docker:** Se actualizaron los paquetes y se instaló la utilidad de Docker dentro del contenedor anfitrión.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.104.png)
 
-* **Ejecución del Daemon:** Se inició el proceso del *daemon* de Docker (`dockerd`) para que el contenedor anfitrión pueda gestionar sus propios contenedores internos.
+* **Ejecución del Daemon:** Se inició el proceso del *daemon* de Docker (`dockerd`) para que el contenedor anfitrión pueda gestionar sus propios contenedores internos. <br>
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.105.png)
 
 ---
@@ -461,18 +465,18 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.106.png)
 
 * **Configuración de DB y Población:**
-    * Se creó la base de datos y las tablas.
+    * Se creó la base de datos y las tablas. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.107.png)
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.108.png)
-    * Se creó la función de inserción masiva.
+    * Se creó la función de inserción masiva. <br>
         ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.109.png)
-    * Se ejecutó la función.
+    * Se ejecutó la función. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.110.png)
 
 * **Seguridad y Gestión:**
-    * Creación de **schemas**.
+    * Creación de **schemas**. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.111.png)
-    * Creación de usuarios y asignación de permisos.
+    * Creación de usuarios y asignación de permisos. <br>
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.112.png)
 
 ---
@@ -487,18 +491,20 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 * **Acceso y Configuración:**
     * Se ejecutó el contenedor y se accedió a la consola `sqlcmd`.
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.114.png)
-    * Creación de tablas.
+    * Creación de tablas. <br>
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.115.png)
-    * Creación del *Stored Procedure* de inserción.
+    * Creación del *Stored Procedure* de inserción. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.116.png)
-    * Ejecución del *Procedure* (1000 inserts).
+    * Ejecución del *Procedure* (1000 inserts). <br>
         ![Imagen que contiene Interfaz de usuario gráfica](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.117.png)
 
 * **Seguridad y Gestión:**
-    * Creación de **schemas**.
+    * Creación de **schemas**. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.118.png)
-    * Creación de logins, usuarios y asignación de permisos.
+    * Creación de logins, usuarios y asignación de permisos. <br>
         ![Interfaz de usuario gráfica, Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.119.png)
+
+---
 
 ## DIND MONGO - Despliegue NoSQL Anidado
 
@@ -510,17 +516,17 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.120.png)
 
 * **Creación de Colecciones y Población:**
-    * Creación de colecciones para la base de datos.
+    * Creación de colecciones para la base de datos. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.121.png)
-    * Implementación del bucle de inserción de **1000 documentos** por colección.
+    * Implementación del bucle de inserción de **1000 documentos** por colección. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.122.png)
-    * Verificación de la población de datos.
+    * Verificación de la población de datos. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.123.png)
 
 * **Seguridad y Gestión:**
-    * Creación de estructuras lógicas de organización ("schemas").
+    * Creación de estructuras lógicas de organización ("schemas"). <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.124.png)
-    * Creación de usuarios y asignación de permisos/roles.
+    * Creación de usuarios y asignación de permisos/roles. <br>
         ![Imagen que contiene Interfaz de usuario gráfica](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.125.png)
 
 ---
@@ -531,33 +537,35 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 2. Despliegue y Configuración de MySQL (Dentro de DinD)
 
-* **Creación del Contenedor MySQL:** Se ejecutó el contenedor de MySQL dentro del entorno Docker anidado.
+* **Creación del Contenedor MySQL:** Se ejecutó el contenedor de MySQL dentro del entorno Docker anidado. 
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.126.png)
 
 * **Acceso y Creación de Tablas:**
-    * Se ingresó a la consola del contenedor.
+    * Se ingresó a la consola del contenedor. <br>
         ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.127.png)
-    * Creación de la base de datos y sus tablas.
+    * Creación de la base de datos y sus tablas. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.128.png)
 
 * **Población de Datos:**
-    * Creación del **Stored Procedure** de inserción masiva.
+    * Creación del **Stored Procedure** de inserción masiva. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.129.png)
-    * Ejecución del *Procedure* para insertar **1000 registros** por tabla.
+    * Ejecución del *Procedure* para insertar **1000 registros** por tabla. <br>
         ![Imagen que contiene Interfaz de usuario gráfica](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.130.png)
 
 * **Seguridad y Gestión:**
-    * Creación de **schemas** y asignación de tablas.
+    * Creación de **schemas** y asignación de tablas. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.131.png)
-    * Creación de usuarios y asignación de privilegios.
+    * Creación de usuarios y asignación de privilegios. <br>
         ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.132.png)
-    * Verificación final de la configuración.
+    * Verificación final de la configuración. <br>
         ![Interfaz de usuario gráfica, Texto, Aplicación](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.133.png)
 
+---
     
 * **FIN**
     ![Texto](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.135.png)
 
+---
 
 ### 💻 Comandos de Referencia
 
