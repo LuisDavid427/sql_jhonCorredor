@@ -76,7 +76,7 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
 
 ### 1. Diagnóstico y Solución de Conectividad (Pull de Imagen)
 
-* **Problema Inicial (Fallo en Pull):** El sistema inicialmente no permitía realizar la operación `docker pull` de
+ **Problema Inicial (Fallo en Pull):** El sistema inicialmente no permitía realizar la operación `docker pull` de
   la imagen de MySQL, a pesar de tener una conexión de red funcional.
     ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.001.png)
 
