@@ -428,22 +428,6 @@ Se cubren los pasos para el aprovisionamiento de imágenes, la creación de base
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.099.png)
         ![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.100.png)
 
-**Docker in Docker**
-
-Ejecutamos contenedor con privilegios especiales
-
-![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.103.png)
-
-Instalamos docker
-
-Apt update
-
-![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.104.png)
-
-Ejecutamos el docker demon
-
-![](Aspose.Words.3a4cd9f3-72b2-4b97-90bf-c4fcd39b9273.105.png)
-
 
 
 ## DOCKER IN DOCKER (DIND) - Aislamiento Anidado
